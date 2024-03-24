@@ -21,13 +21,14 @@
 title: Archyve
 email: nickthecook@gmail.com
 description: The document library.
-baseurl: "" # the subpath of your site, e.g. /blog
+# baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://archyve.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: nickthecook
 
 # Build settings
 # theme: minima
 theme: jekyll-theme-dinky
+remote_theme: jekyll-theme-dinky
 
 github:
   repository_url: https://github.com/nickthecook/archyve

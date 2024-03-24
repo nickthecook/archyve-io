@@ -24,6 +24,7 @@ description: The document library.
 # baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://archyve.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: nickthecook
+repository: nickthecook/archyve-io
 
 # Build settings
 # theme: minima
@@ -37,7 +38,6 @@ github:
   is_project_page: true
   owner_url: https://github.com/nickthecook
   owner_name: nickthecook
-  repository: nickthecook/archyve-io
 
 # Exclude from processing.
 # The following items will not be processed, by default.

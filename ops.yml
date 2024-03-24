@@ -1,0 +1,6 @@
+dependencies:
+  custom:
+    - bundle
+actions:
+  server: bundle exec jekyll serve --livereload
+  build: bundle exec jekyll build

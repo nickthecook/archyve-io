@@ -28,7 +28,7 @@ github_username: nickthecook
 # Build settings
 # theme: minima
 theme: jekyll-theme-dinky
-remote_theme: jekyll-theme-dinky
+remote_theme: dinky
 
 github:
   repository_url: https://github.com/nickthecook/archyve

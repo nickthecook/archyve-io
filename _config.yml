@@ -28,13 +28,16 @@ github_username: nickthecook
 # Build settings
 # theme: minima
 theme: jekyll-theme-dinky
-remote_theme: dinky
+remote_theme: pages-themes/dinky@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 
 github:
   repository_url: https://github.com/nickthecook/archyve
   is_project_page: true
   owner_url: https://github.com/nickthecook
   owner_name: nickthecook
+  repository: nickthecook/archyve-io
 
 # Exclude from processing.
 # The following items will not be processed, by default.

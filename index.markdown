@@ -24,8 +24,6 @@ Archyve's API can be access under `/v1`. Resources include:
 - `/search?q=<query>`
   - search documents
   - returns a list of documents with URL and distance (score)
-- `/facts`
-  - list facts (not yet implemented)
 
 OpenAPI spec coming soon.
 
@@ -58,4 +56,4 @@ Typical usage of Archyve's UI is anticipated to be:
 - use chat to test indexing parameters
 - etc.
 
-Once the user is satisfied with the document indexing, they can have another application, such as HuggingFace Chat UI, use Archyve's API to search for relevant chunks of text and add them to a prompt before sending it to an LLM.
+Once the user is satisfied with the document indexing, they can have another application, such as [HuggingFace Chat UI](https://github.com/huggingface/chat-ui) or [Open WebUI](https://github.com/open-webui/open-webui), use Archyve's API to search for relevant chunks of text and add them to a prompt before sending it to an LLM.

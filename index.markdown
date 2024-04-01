@@ -19,11 +19,15 @@ Archyve takes this concern away from chat UIs and other LLM-based applications, 
 
 Archyve's API can be access under `/v1`. Resources include:
 
-- `/documents`
-  - list documents
-- `/search?q=<query>`
-  - search documents
-  - returns a list of documents with URL and distance (score)
+- `/collections`
+  - list collections (of documents)
+- `/collections/:id`
+  - get data on one collection
+- `/collections/:id/search?q=<query>`
+  - search a collection
+  - returns a list of document chunks with URL and distance
+- `/chunks/:id`
+  - retrieve a chunk, including its content
 
 OpenAPI spec coming soon.
 

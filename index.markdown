@@ -33,13 +33,27 @@ OpenAPI spec coming soon.
 
 ### Authentication
 
-Archyve uses a Bearer token for authentication. Your request should include the header:
+Archyve uses a client ID and Bearer token for authenticating API clients.
+
+If you are in the `development` environment, i.e. `$environment` is not set, Archyve will create default client credentials the first time it starts. It will then print the credentials to the console:
 
 ```
-Authorization: Bearer <token>
+To authenticate with the default API client, set these headers:
+
+Authorization: Bearer ...
+X-Client-Id: ...
+
+E.g.:
+
+curl -v localhost:3300/v1/collections \
+  -H "Accept: application/json" \
+  -H "Authorization: Bearer ..." \
+  -H "X-Client-Id: ..."
 ```
 
-All API results are scoped to the user to which the API key belongs.
+Include these headers it specifies in any request to the API.
+
+> To force Archyve to recreate the default client, delete your development database and restart Archyve.
 
 ## UI
 

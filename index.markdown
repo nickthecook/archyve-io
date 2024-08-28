@@ -17,8 +17,6 @@ LLMs work well enough when prompted about subjects from their training data, but
 
 Archyve enables LLMs to answer questions about your private documents as if they were part of its training data, while letting you keep your documents safely and privately on your infrastructure.
 
-Archyve provides document awareness to existing LLMs.
-
 ### 2. Document-centric approach
 
 Its document-centric approach allows you to maintain a large set of pre-embedded and graphed documents, so relevant data can be pulled into any LLM prompt without the need to choose relevant documents yourself and upload them to a chat.
